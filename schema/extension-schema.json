@@ -1,0 +1,103 @@
+{
+	"name": "Extension",
+	"type": "object",
+	"additionalProperties": false,
+	"properties": {
+		"name": {
+			"type": "string",
+			"description": "This is used to show the name of the extension in the form of vendor/cleanname.",
+			"required": true
+		},
+		"type": {
+			"description": "Should always be phpbb3-extension for extensions.",
+			"type": "string",
+			"required": true
+		},
+		"description": {
+			"type": "string",
+			"description": "Short package description."
+		},
+		"homepage": {
+			"type": "string",
+			"description": "Homepage URL for the project.",
+			"format": "uri"
+		},
+		"version": {
+			"type": "string",
+			"description": "Package version, see full specification for more info on valid schemes.",
+			"required": true
+		},
+		"time": {
+			"type": "string",
+			"description": "Package release date, in 'YYYY-MM-DD' or 'YYYY-MM-DD HH:MM:SS' format."
+		},
+		"license": {
+			"type": ["string", "array"],
+			"description": "License name. Or an array of license names."
+		},
+		"authors": {
+			"type": "array",
+			"description": "List of authors that contributed to the package. This is typically the main maintainers, not the full list.",
+			"items": {
+				"type": "object",
+				"additionalProperties": false,
+				"properties": {
+					"name": {
+						"type": "string",
+						"description": "Real Name of the author.",
+						"required": true
+					},
+					"username": {
+						"type": "string",
+						"description": "Username of the author",
+						"required": true
+					},
+					"email": {
+						"type": "string",
+						"description": "Email address of the author.",
+						"format": "email"
+					},
+					"homepage": {
+						"type": "string",
+						"description": "Homepage URL for the author.",
+						"format": "uri"
+					}
+					"type": {
+						"type": "string",
+						"description": "It should show their position and if they are a past contributor it should be prefixed by the word past.",
+						"format": "uri"
+						"required": true
+					}
+				}
+			}
+		},
+		"require": {
+			"type": "object",
+			"description": "This is a hash of package name (keys) and version constraints (values) that are required to run this package.",
+			"additionalProperties": false,
+			"properties": {
+				"phpBB": {
+					"type": "string",
+					"description": "This is the phpBB Version it requires, it should be a singluar version and not contain any operators",
+					"required": true
+				},
+				"php": {
+					"type": "string",
+					"description": "This is the PHP Version it requires, this can include operators. For more information on the format see the full specification"
+				}
+			}
+		},
+		"extra": {
+			"type": "object",
+			"description": "Extra data used by phpBB but is not in composer.json",
+			"additionalProperties": false,
+			"properties": {
+				"display-name": {
+					"type": "string",
+					"description": "This is the human display name for your extension",
+					"required": true
+				}
+			}				
+		}
+	}
+}
