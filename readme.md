@@ -13,4 +13,4 @@ You can get involved by reporting bugs in the bug tracker (See Below), provide p
 
 ## Bug Tracker
 
-If you find a bug, please submit it to the [MOD Team Tools](http://www.phpbb.com/bugs/modteamtools/) bug tracker on phpBB.com.
+If you find a bug, please submit it to the bug tracker that does not yet exist.
