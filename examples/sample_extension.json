@@ -1,0 +1,30 @@
+{
+	"name": "phpbb/sample",
+	"type": "phpbb3-extension",
+	"description": "An super cool example meta-data file.",
+	"homepage": "https://gist.github.com/gists/1835060",
+	"version": "1.0.0",
+	"time": "2012-02-15",
+	"licence": "GNU GPL v2",
+	"authors": [{
+			"name": "Michael Cullum",
+			"username": "Unknown Bliss",
+			"email": "m@michaelcullum.com",
+			"homepage": "http://michaelcullum.com",
+			"type": "Lead Developer"
+		},  
+		{
+			"name": "David King",
+			"username": "imkingdavid",
+			"email": "imkingdavid@gmail.com",
+			"homepage": "http://thedavidking.com",
+			"type": "Past Translator"
+		}],
+	"require": {
+		"php": ">=5.4",
+		"phpbb": "3.1.0"
+	},
+	"extra": {
+		"display-name": "Sample Extension"
+	}
+}
