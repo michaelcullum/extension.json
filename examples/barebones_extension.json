@@ -1,0 +1,22 @@
+{
+	"name": "phpbb/barebones",
+	"type": "phpbb3-extension",
+	"version": "1.0.0",
+	"licence": "GNU GPL v2",
+	"authors": [{
+			"name": "Michael Cullum",
+			"username": "Unknown Bliss",
+			"type": "Lead Developer"
+		},  
+		{
+			"name": "David King",
+			"username": "imkingdavid",
+			"type": "Past Translator"
+		}],
+	"require": {
+		"phpbb": "3.1.0"
+	},
+	"extra": {
+		"display-name": "Barebones Extension"
+	}
+}
