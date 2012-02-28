@@ -11,27 +11,27 @@
 			"username": "naderman",
 			"email": "naderman@naderman.de",
 			"homepage": "http://naderman.de",
-			"type": "Lead Developer"
+			"role": "Lead Developer"
 		},  
 		{
 			"name": "David King",
 			"username": "imkingdavid",
 			"email": "imkingdavid@gmail.com",
 			"homepage": "http://thedavidking.com",
-			"type": "Contributor"
+			"role": "Contributor"
 		}
 		{
 			"name": "Igor Wiedler",
 			"username": "igorw",
 			"email": "igor@wiedler.ch",
-			"type": "Contributor"
+			"role": "Contributor"
 		}
 		{
 			"name": "Michael Cullum",
 			"username": "Unknown Bliss",
 			"email": "m@michaelcullum.com",
 			"homepage": "http://michaelcullum.com",
-			"type": "Contributor"
+			"role": "Contributor"
 		}],
 	"require": {
 		"php": ">=5.4",

@@ -6,12 +6,12 @@
 	"authors": [{
 			"name": "Michael Cullum",
 			"username": "Unknown Bliss",
-			"type": "Lead Developer"
+			"role": "Lead Developer"
 		},  
 		{
 			"name": "David King",
 			"username": "imkingdavid",
-			"type": "Past Translator"
+			"role": "Past Translator"
 		}],
 	"require": {
 		"phpbb": "3.1.0"

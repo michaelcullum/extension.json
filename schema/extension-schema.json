@@ -62,9 +62,9 @@
 						"description": "Homepage URL for the author.",
 						"format": "uri"
 					}
-					"type": {
+					"role": {
 						"type": "string",
-						"description": "It should show their position and if they are a past contributor it should be prefixed by the word past.",
+						"description": "It should show their position/role and if they are a past contributor it can be prefixed by past or previous.",
 						"format": "uri"
 						"required": true
 					}
