@@ -8,8 +8,14 @@ Do you have an improvement? Did you fix a bug? Fork the GitHub repo, make your c
 
 ## Get Involved
 
-You can get involved by reporting bugs in the bug tracker (See Below), provide patches/improvements (See Above).
+You can get involved by reporting bugs in the bug tracker (See Below), provide patches / improvements (See Above).
 
 ## Bug Tracker
 
 If you find a bug, please submit it to the bug tracker that does not yet exist.
+
+## Licence
+
+Everything in this repo is licensed under the GPL v2. 
+Copyright phpBB Group 2012.
+Author - Unknown Bliss / Michael Cullum
